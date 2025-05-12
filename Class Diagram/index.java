@@ -74,10 +74,10 @@ public class FoodDeliverySystem {
 
     // ===================== Admin =====================
     public class Admin {
-        public int adminId;
-        public int role;
+        private int adminId;
+        private int role;
         public String adminName;
-        public String password;
+        private String password;
 
         public void assignRole() {}
         public void viewReport() {}
